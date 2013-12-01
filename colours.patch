@@ -1,0 +1,46 @@
+diff --git a/config.h b/config.h
+index c3dfe23..f0d32ef 100644
+--- a/config.h
++++ b/config.h
+@@ -37,15 +37,15 @@ char sslcolor[MAX_SETTING_SIZE]         = "#000000";            /* color for sta
+ 
+                                         /*  normal,                 warning,                error       */
+ char urlboxfont[][MAX_SETTING_SIZE]     = { "monospace normal 8",   "monospace normal 8",   "monospace bold 8"};
+-static const char *urlboxcolor[]        = { NULL,                   "#ff0000",              "#ffffff" };
+-static const char *urlboxbgcolor[]      = { NULL,                   NULL,                   "#ff0000" };
++static const char *urlboxcolor[]        = { "#666666",              "#ff0000",              "#ffffff" };
++static const char *urlboxbgcolor[]      = { "#000000",              "#000000",              "#ff0000" };
+ 
+                                         /*  normal,                 error               */
+ char completionfont[2][MAX_SETTING_SIZE] = { "monospace normal 8",   "monospace bold 8" };
+                                                                                         /* topborder color */
+-static const char *completioncolor[]    = { "#000000",              "#ff00ff",              "#000000" };
++static const char *completioncolor[]    = { "#666666",              "#ff00ff",              "#000000" };
+                                                                                         /* current row background */
+-static const char *completionbgcolor[]  = { "#ffffff",              "#ffffff",              "#fff000" };
++static const char *completionbgcolor[]  = { "#000000",              "#000000",              "#fff000" };
+ /* pango markup for prefix highliting:      opening,                closing             */
+ #define             COMPLETION_TAG_OPEN     "<b>"
+ #define             COMPLETION_TAG_CLOSE    "</b>"
+diff --git a/hinting.js b/hinting.js
+index 4997cae..8836fda 100644
+--- a/hinting.js
++++ b/hinting.js
+@@ -9,13 +9,13 @@ function Hints() {
+     var config = {
+         maxAllowedHints: 500,
+         hintCss: "z-index:100000;font-family:monospace;font-size:10px;"
+-               + "font-weight:bold;color:white;background-color:red;"
++               + "font-weight:bold;color:white;background-color:#666;"
+                + "padding:0px 1px;position:absolute;",
+         hintClass: "hinting_mode_hint",
+         hintClassFocus: "hinting_mode_hint_focus",
+-        elemBackground: "#ff0",
+-        elemBackgroundFocus: "#8f0",
+-        elemColor: "#000"
++        elemBackground: "none",
++        elemBackgroundFocus: "none",
++        elemColor: "none"
+     };
+ 
+     var hintContainer;
