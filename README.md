@@ -21,7 +21,12 @@ My vimprobable configuration and settings. Plus a homepage builder just for amus
      cd tabbed
      make && make install
 
-* Run install.sh
+* Install configurations
+
+    Clone this repo
+        
+        git clone http://github.com/desyncr/vimprobablerc
+        cd vimprobablerc
 
     Generate your vimprobablerc
 
