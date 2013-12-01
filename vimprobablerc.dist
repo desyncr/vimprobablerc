@@ -1,0 +1,19 @@
+set homepage=file:///$VIMPROBABLE/homepage.html
+set plugins=false
+set scripts=true
+set java=false
+set images=true
+set caret=false
+set proxy=false
+map <C-p>=:set plugins=true
+map <C-j>=:set java=true
+map <C-h>=:open file:///$VIMPROBABLE/homepage.html
+map <C-w>=:q
+map <C-t>=:tabopen file:///$VIMPROBABLE/homepage.html
+set statusbgcolor=#000000
+set statuscolor=#666666
+set sslbgcolor=#000000
+set sslcolor=#666666
+set sslinvalidbgcolor=#000000
+set downloadspath=$HOME/Downloads/
+set cookies=true
