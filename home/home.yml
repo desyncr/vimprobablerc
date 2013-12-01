@@ -1,0 +1,72 @@
+categories:
+  - name: social
+    bookmarks:
+      - name: unixporn
+        href: http://www.reddit.com/r/unixporn/
+      - name: unixhub
+        href: http://forums.unixhub.net/
+      - name: github
+        href: https://github.com/desyncr/
+
+  - name: reading
+    bookmarks:
+      - name: /r/programming
+        href: http://www.reddit.com/r/programming/
+      - name: /r/learnprogramming
+        href: http://www.reddit.com/r/learnprogramming/
+      - name: /r/ruby
+        href: http://www.reddit.com/r/ruby/
+      - name: hn
+        href: https://news.ycombinator.com/news
+
+  - name: learning
+    bookmarks:
+      - name: arch wiki
+        href: https://wiki.archlinux.org/
+
+  - name: media
+    bookmarks:
+      - name: youtube
+        href: https://www.youtube.com/
+      - name: tumbr
+        href: https://www.tumblr.com/
+      - name: twitter
+        href: https://twitter.com/
+
+  - name: tools
+    bookmarks:
+      - name: stackoverflow
+        href: https://stackoverflow.com
+      - name: fastmail
+        href: https://www.fastmail.fm
+
+  - name: search
+    bookmarks:
+      - name: duckduckgo
+        href: https://duckduckgo.com/
+      - name: thepiratebay
+        href: https://thepiratebay.se/
+      - name: google
+        href: https://www.google.com/
+      - name: google images
+        href: https://images.google.com/
+      - name: wikipedia
+        href: https://www.wikipedia.org/
+
+shortcuts:
+  - key: "."
+    description: hinting
+  - key: ","
+    description: hinting (new window)
+  - key: H
+    description: navigate back
+  - key: L
+    description: navigate forward
+  - key: ";s"
+    description: download
+  - key: C-t
+    description: home (background)
+  - key: C-w
+    description: close tab
+  - key: u
+    description: reopen tab

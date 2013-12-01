@@ -1,0 +1,55 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    background: black;
+    color: gray;
+    overflow: hidden;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+}
+#centered {
+    margin: 25% auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+.category {
+    width: 70px;
+    display: inline-block;
+}
+
+.category span {
+    float: right;
+    font-size: 8px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+
+.links {
+    float: left;
+}
+.shortcuts {
+    float: right;
+    text-align: right;
+    padding-right: 40px;
+}
+.shortcuts span {
+    float: right;
+    display: inline-block;
+    width: 25px;
+    margin-left: 10px;
+}
+

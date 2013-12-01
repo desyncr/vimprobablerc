@@ -1,0 +1,34 @@
+<html>
+    <head>
+    <title>Home</title>
+    <style>
+      <%= stylesheet %>
+    </style>
+    </head>
+    <body>
+        <div id="centered">
+            <div class="links">
+                <ul>
+                    <% home['categories'].each do |category| %>
+                        <li>
+                            <span class="category"><%= category['name'] %> <span>&gt;</span></span>
+                            <% category['bookmarks'].each do |bookmark| %>
+                            <a href="<%= bookmark['href'] %>" title="<%= bookmark['title'] %>"><%= bookmark['name'] %></a>
+                            <% end %>
+                        </li>
+                    <% end %>
+                </ul>
+            </div>
+
+            <div class="shortcuts">
+                <ul>
+                    <% home['shortcuts'].each do |shortcut| %>
+                        <li>
+                            <span><%= shortcut['key'] %></span> <%= shortcut['description'] %>
+                        </li>
+                    <% end %>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
