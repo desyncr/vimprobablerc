@@ -11,15 +11,15 @@ My vimprobable configuration and settings. Plus a homepage builder just for amus
 
 * Install Vimprobable
 
-     git clone git://git.code.sf.net/p/vimprobable/code
-     cd code
-     make && make install
+        git clone git://git.code.sf.net/p/vimprobable/code
+        cd code
+        make && make install
 
 * (optional) Install tabbed
 
-     git clone http://git.suckless.org/tabbed
-     cd tabbed
-     make && make install
+        git clone http://git.suckless.org/tabbed
+        cd tabbed
+        make && make install
 
 * Install configurations
 
