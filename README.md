@@ -46,7 +46,7 @@ My vimprobable configuration and settings. Plus a homepage builder just for amus
     Build your homepage.html
 
         cd $PWD/home/
-        ./home/buildr.rb build > ../homepage.html
+        ./buildr.rb build > ../homepage.html
         cd -
 
     Install vimprobable wrapper (tabbed)
