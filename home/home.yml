@@ -1,7 +1,7 @@
 categories:
   - name: social
     bookmarks:
-      - name: unixporn
+      - name: /r/unixporn
         href: http://www.reddit.com/r/unixporn/
       - name: unixhub
         href: http://forums.unixhub.net/
@@ -39,6 +39,8 @@ categories:
         href: https://stackoverflow.com
       - name: fastmail
         href: https://www.fastmail.fm
+      - name: gist
+        href: https://gist.github.com
 
   - name: search
     bookmarks:
@@ -48,7 +50,7 @@ categories:
         href: https://thepiratebay.se/
       - name: google
         href: https://www.google.com/
-      - name: google images
+      - name: images
         href: https://images.google.com/
       - name: wikipedia
         href: https://www.wikipedia.org/
