@@ -53,3 +53,12 @@ ul {
     margin-left: 10px;
 }
 
+.links form input {
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+    background: 0;
+    border: 1px solid gray;
+    padding: 5px;
+    width: 400px;
+}

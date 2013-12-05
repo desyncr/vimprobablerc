@@ -1,0 +1,16 @@
+<form name="search" action="#">
+    <input tabindex=1 name="q" type="text" placeholder="Search...">
+</form>
+<script type="text/javascript">
+    var form = document.forms['search'];
+        form.action = "http://google.com";
+    function submitQuery(e) {
+        window.location.href = form.action + "#q=" + form.elements['q'].value;
+        e.preventDefault();
+    }
+
+    window.onload = function() {
+        form.onsubmit = submitQuery;
+    }
+</script>
+
