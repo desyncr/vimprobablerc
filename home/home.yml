@@ -35,12 +35,12 @@ categories:
 
   - name: tools
     bookmarks:
-      - name: stackoverflow
-        href: https://stackoverflow.com
       - name: fastmail
         href: https://www.fastmail.fm
       - name: gist
         href: https://gist.github.com
+      - name: workflowy
+        href: https://workflowy.com/
 
   - name: search
     bookmarks:
