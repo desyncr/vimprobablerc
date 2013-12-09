@@ -14,8 +14,6 @@ categories:
         href: http://www.reddit.com/r/programming/
       - name: /r/learnprogramming
         href: http://www.reddit.com/r/learnprogramming/
-      - name: /r/ruby
-        href: http://www.reddit.com/r/ruby/
       - name: hn
         href: https://news.ycombinator.com/news
 
@@ -23,6 +21,8 @@ categories:
     bookmarks:
       - name: arch wiki
         href: https://wiki.archlinux.org/
+      - name: arch forums
+        href: https://bbs.archlinux.org/
 
   - name: media
     bookmarks:
